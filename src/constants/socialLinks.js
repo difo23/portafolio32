@@ -1,12 +1,5 @@
 import React from 'react';
-import {
-	BsCodeSlash,
-	FaGithubSquare,
-	FaLinkedin,
-	FaDribbbleSquare,
-	FaBehanceSquare,
-	FaTwitterSquare
-} from 'react-icons/fa';
+import { FaCode, FaGithubSquare, FaLinkedin, FaDribbbleSquare, FaBehanceSquare, FaTwitterSquare } from 'react-icons/fa';
 
 const data = [
 	{
@@ -22,7 +15,7 @@ const data = [
 
 	{
 		id: 3,
-		icon: <BsCodeSlash className="social-icon" />,
+		icon: <FaCode className="social-icon" />,
 		url: 'https://difo23the100daysofcode.netlify.app/'
 	},
 	{
