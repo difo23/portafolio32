@@ -190,7 +190,7 @@ p {
 /* social links */
 .social-links {
   margin-top: 2rem;
-  width: 15rem;
+  width: 10rem;
   display: flex;
   justify-content: space-between;
 }
@@ -409,8 +409,8 @@ Hero
 .hero {
   margin-top: -5rem;
   padding-top: 5rem;
-  height: 100vh;
-  background: var(--clr-primary-10);
+  height: 80vh;
+  background: var(--clr-primary-9);
   position: relative;
 }
 
@@ -425,7 +425,7 @@ Hero
   margin-left: 0;
 }
 .hero-info {
-  background: var(--clr-primary-10);
+  background: var(--clr-primary-9);
 }
 .hero-img {
   display: none;
@@ -445,7 +445,7 @@ Hero
     content: "";
     position: absolute;
     top: 0;
-    left: 65%;
+    left: 54%;
     right: 0;
     bottom: 0;
     background: var(--clr-white);
