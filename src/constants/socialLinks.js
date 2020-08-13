@@ -1,5 +1,12 @@
 import React from 'react';
-import { 	BsCodeSlash, FaGithubSquare, FaLinkedin, FaDribbbleSquare, FaBehanceSquare, FaTwitterSquare } from 'react-icons/fa';
+import {
+	BsCodeSlash,
+	FaGithubSquare,
+	FaLinkedin,
+	FaDribbbleSquare,
+	FaBehanceSquare,
+	FaTwitterSquare
+} from 'react-icons/fa';
 
 const data = [
 	{
