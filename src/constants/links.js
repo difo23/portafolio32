@@ -21,14 +21,8 @@ const data = [
 		text: 'blog',
 		url: '/blog/'
 	},
-
 	{
 		id: 5,
-		text: '100 days of code',
-		url: 'https://difo23the100daysofcode.netlify.app/'
-	},
-	{
-		id: 6,
 		text: 'contact',
 		url: '/contact/'
 	}
