@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaCode, IoLogoJavascript, FaNetworkWired } from 'react-icons/fa';
+import { FaCode, FaStackOverflow, FaNetworkWired } from 'react-icons/fa';
 export default [
 	{
 		id: 1,
@@ -9,7 +9,7 @@ export default [
 	},
 	{
 		id: 2,
-		icon: <IoLogoJavascript className="service-icon" />,
+		icon: <FaStackOverflow className="service-icon" />,
 		title: 'FullStack Web Development',
 		text: `I have a lot  experience with Mongodb,  Express, React and Nodejs (MERN) stack technologies in web. I am fanboy of vanilla JS. I don't have problem with to use others programming languages about the backend like are Python, Go and Java.`
 	},
