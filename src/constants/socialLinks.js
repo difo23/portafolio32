@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaCode, FaGithubSquare, FaLinkedin, FaDribbbleSquare, FaBehanceSquare, FaTwitterSquare } from 'react-icons/fa';
+import { FaCode, FaRegIdCard, FaGithubSquare, FaLinkedin, FaDribbbleSquare, FaBehanceSquare, FaTwitterSquare } from 'react-icons/fa';
 
 const data = [
 	{
@@ -15,13 +15,19 @@ const data = [
 
 	{
 		id: 3,
-		icon: <FaCode className="social-icon" />,
-		url: 'https://difo23the100daysofcode.netlify.app/'
+		icon: <FaTwitterSquare className="social-icon" />,
+		url: 'https://twitter.com/lizandro23difo'
 	},
 	{
 		id: 4,
-		icon: <FaTwitterSquare className="social-icon" />,
-		url: 'https://twitter.com/lizandro23difo'
+		icon: <FaCode className="social-icon" />,
+		url: 'https://difo23the100daysofcode.netlify.app/'
+	}
+	,
+	{
+		id: 5,
+		icon: <FaRegIdCard className="social-icon" />,
+		url: 'https://lizandrocv.herokuapp.com/'
 	}
 ];
 const links = data.map((link) => {

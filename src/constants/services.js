@@ -11,7 +11,7 @@ export default [
 		id: 2,
 		icon: <FaStackOverflow className="service-icon" />,
 		title: 'FullStack Web Development',
-		text: `I have a lot  experience with Mongodb,  Express, React and Nodejs (MERN) stack technologies in web. I am fanboy of vanilla JS. I don't have problem with to use others programming languages about the backend like are Python, Go and Java.`
+		text: `I'm current working with Mongodb,  Express, React and Nodejs (MERN) stack technologies in web. I am fanboy of vanilla JS. I don't have problem with to use others programming languages about the backend like are Python, Go and Java.`
 	},
 	{
 		id: 3,
