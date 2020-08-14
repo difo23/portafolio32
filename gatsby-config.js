@@ -9,7 +9,7 @@ module.exports = {
     title: 'Lizandro Portfolio',
     description: "This is WebDev Portfolio Site",
     author: "@difo23",
-    siteUrl:'https://lizandrojramirez.netlify.app/',
+    siteUrl: 'https://lizandrojramirez.netlify.app/',
     githubUrl: `https://github.com/difo23`,
     twitterUrl: "https://twitter.com/lizandro23difo",
   },
@@ -46,8 +46,8 @@ module.exports = {
         //   contentTypes : `jobs`, `projects`, `blogs`,
         //   singleType : `about`
         //  ONLY ADD TO ARRAY IF YOU HAVE DATA IN STRAPI !!!!
-        contentTypes: [],
-        singleTypes: [],
+        contentTypes: [`jobs`],
+        //singleTypes: [],
       },
     },
     // {
