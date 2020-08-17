@@ -25,9 +25,9 @@ const Hero = () => {
 						<div className="underline" />
 						<h1>I'm Lizandro J. Ramírez</h1>
 						<h4>Software engineer</h4>
-						<Link to="/contact" className="btn">
+						<a href="https://www.linkedin.com/in/lizandro23difo" className="btn">
 							Contact me
-						</Link>
+						</a>
 						<SocialLinks />
 					</div>
 				</article>
