@@ -37,7 +37,8 @@ module.exports = {
         display: `standalone`,
         icon: `src/assets/me.png`,
       },
-    },
+    }
+    ,
     {
       resolve: `gatsby-source-strapi`,
       options: {
