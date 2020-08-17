@@ -1,37 +1,35 @@
 import React from 'react';
 import { Link } from 'gatsby';
 const data = [
-	{
-		id: 1,
-		text: 'home',
-		url: '/'
-	},
+
 	{
 		id: 2,
-		text: 'about',
-		url: '/about/'
+		text: 'The 100 days of code',
+		url: 'https://difo23the100daysofcode.netlify.app/'
 	},
 	{
 		id: 3,
-		text: 'projects',
-		url: '/projects/'
+		text: 'YouTube Channel',
+		url: 'https://www.youtube.com/channel/UCrzMBt76TptdoXUhNY_olog/videos'
 	},
+	{
+		id: 3,
+		text: 'Resume',
+		url: 'https://lizandrocv.herokuapp.com/'
+	}
+	,
 	{
 		id: 4,
-		text: 'blog',
-		url: '/blog/'
-	},
-	{
-		id: 5,
-		text: 'contact',
-		url: '/contact/'
+		text: 'Blogs',
+		url: 'https://developerdecision.blogspot.com/'
 	}
 ];
+
 
 const tempLinks = data.map((link) => {
 	return (
 		<li key={link.id}>
-			<Link to={link.url}>{link.text}</Link>
+			<a href={link.url}>{link.text}</a>
 		</li>
 	);
 });
