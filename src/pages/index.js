@@ -1,21 +1,20 @@
-import React from 'react';
-import { graphql } from 'gatsby';
-import Layout from '../components/Layout';
-import Hero from '../components/Hero';
-import Services from '../components/Services';
-import Jobs from '../components/Jobs';
-import Footer from '../components/Footer'
-import Projects from '../components/Projects';
-import Blogs from '../components/Blogs';
-export default () => {
+import React from "react"
+
+import Layout from "../components/Layout"
+import Hero from "../components/Hero"
+import Services from "../components/Services"
+
+import SEO from "../components/SEO"
+export default ({ data }) => {
+
+
 	return (
 		<Layout>
+			<SEO title="Home" description="this is our home page" />
 			<Hero />
-
 			<Services />
-			<Footer />
+
 
 		</Layout>
-	);
-};
-// ...GatsbyImageSharpFluid
+	)
+}

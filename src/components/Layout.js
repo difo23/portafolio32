@@ -5,17 +5,18 @@ import Navbar from "./Navbar"
 import Sidebar from "./Sidebar"
 import Footer from "./Footer"
 
-
 const Layout = ({ children }) => {
+  const [isOpen, setIsOpen] = React.useState(false)
+  const toggleSidebar = () => {
+    setIsOpen(!isOpen)
+  }
+
   return (
     <>
-      <Helmet>
-          <meta charSet="utf-8" />
-          <title>Lizandro's portfolio</title>
-          <link rel="canonical" href="http://mysite.com/example" />
-        </Helmet>
-      <Navbar/>
+      <Navbar toggleSidebar={toggleSidebar} />
+      <Sidebar isOpen={isOpen} toggleSidebar={toggleSidebar} />
       {children}
+      <Footer />
     </>
   )
 }
