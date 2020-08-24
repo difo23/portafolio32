@@ -18,6 +18,8 @@ const data = [
 		icon: <FaTwitterSquare className="social-icon" />,
 		url: 'https://twitter.com/lizandro23difo'
 	}
+
+
 	// {
 	// 	id: 6,
 	// 	icon: <FaRegIdCard className="social-icon" />,
