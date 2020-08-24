@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaCode, FaRegIdCard, FaGithubSquare, FaLinkedin, FaDribbbleSquare, FaBehanceSquare, FaTwitterSquare, FaYoutube } from 'react-icons/fa';
+import { FaCode, FaRegIdCard, FaGithubSquare, FaLinkedin, FaDribbbleSquare, FaBehanceSquare, FaTwitterSquare, FaYoutube, FaDev } from 'react-icons/fa';
 
 const data = [
 	{
@@ -17,6 +17,11 @@ const data = [
 		id: 3,
 		icon: <FaTwitterSquare className="social-icon" />,
 		url: 'https://twitter.com/lizandro23difo'
+	},
+	{
+		id: 4,
+		icon: <FaDev className="social-icon" />,
+		url: 'https://dev.to/difo23'
 	}
 
 
