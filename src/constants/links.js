@@ -21,7 +21,7 @@ const data = [
 	{
 		id: 4,
 		text: 'Blogs',
-		url: 'https://developerdecision.blogspot.com/'
+		url: 'https://dev.to/difo23'
 	}
 ];
 
