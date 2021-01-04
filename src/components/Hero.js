@@ -23,7 +23,7 @@ const Hero = () => {
 				<article className="hero-info">
 					<div>
 						<div className="underline" />
-						<h1>Lizandro J. Ramírez</h1>
+						<h1>  Ing. Lizandro J. Ramírez</h1>
 						<h4>Software engineer</h4>
 						<a href="https://www.linkedin.com/in/lizandro23difo" className="btn">
 							Contact me
