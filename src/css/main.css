@@ -471,13 +471,14 @@ Hero
 .hero {
   margin-top: -5rem;
   padding-top: 5rem;
-  height: 80vh;
+  height: 70vh;
   background: var(--clr-primary-9);
   position: relative;
 }
 
 .hero-center {
   height: 100%;
+  margin-left: 15%;
   display: grid;
   align-items: center;
 }
@@ -512,10 +513,10 @@ Hero
     content: "";
     position: absolute;
     top: 0;
-    left: 54%;
+    left: 70%;
     right: 0;
     bottom: 0;
-    background: var(--clr-white);
+   
   }
 
   .hero-center {

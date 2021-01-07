@@ -1,5 +1,6 @@
 import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
+import Video from './Video';
 import SocialLinks from '../constants/socialLinks';
 const query = graphql`
 	{
@@ -28,9 +29,17 @@ const Hero = () => {
 						</a>
 						<SocialLinks />
 					</div>
-				</article>
 
+				</article>
+				<br></br>
+
+				<Video
+					videoSrcURL="https://www.youtube.com/embed/1wuL2cO89i0"
+					videoTitle="Official DigData Learn on YouTube"
+
+				/>
 			</div>
+
 		</header>
 	);
 };
